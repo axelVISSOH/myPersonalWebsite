@@ -252,13 +252,12 @@ section {
   margin-bottom: 0;
 }
 
-/* Languages*/
+/* Languages */
 .languages .progress {  
   height: 50px;
   display: block;
   background: none;
 }
-
 .languages .progress .languages {
   padding: 10px 0;
   margin: 0 0 6px 0;
@@ -268,20 +267,61 @@ section {
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
-
 .languages .progress .languages .val {
   float: right;
   font-style: normal;
 }
-
 .languages .progress-bar-wrap {
   background: #dce8f8;
 }
-
 .languages .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
   background-color: #149ddd;
 }
-
+/* community_life */
+.community_life {
+  padding-bottom: 30px;
+}
+.community_life .lifeBox{
+  padding:0 20px 0;
+  margin: 30px;
+  height:400px;
+  width: 800px;
+}
+.no-gutters{
+  padding: 20px;
+  background-color: #6ec2e9;
+}
+@media (max-width: 1024px) {
+  .community_life .lifeBox{
+  padding:0 20px 0;
+  height:200px;
+  width: 800px;
+  }
+  .community_life .count-box p {
+  text-align: justify;
+  }
+}
+.community_life .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #149ddd;
+  float: left;
+}
+.community_life .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #050d18;
+  padding-bottom: 10px;
+  margin-left: 60px;
+}
+.community_life .count-box p {
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #122f57;
+}
