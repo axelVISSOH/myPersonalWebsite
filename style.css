@@ -534,3 +534,30 @@ section {
     transform: rotate(360deg);
   }
 }
+/* Computer Science */
+.bar{
+    margin-bottom: 15px ;
+}
+.progress-outer{
+    background-color: #D2D5CC;
+    height: 40px;
+    border-radius: 30px;
+}
+.progress-inner{    
+    background-color: #1a2dd8;
+    height: 40px;
+    border-radius: 30px;
+    width: 10%;
+    transition: width 1s ease-in-out,background-color 0s;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding:10px;
+}
+input{
+  border-radius: 25%;
+  margin: 25px;
+  margin-left: 25px;  
+  height: 80px;
+  width: 80px;
+}
