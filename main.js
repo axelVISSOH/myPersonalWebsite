@@ -123,67 +123,6 @@
   }, {
     offset: '80%'
   });
-
-  //Computer-Science Section
-  const buttonC = document.getElementById('c');
-  var progressBar = document.getElementById('progression');
-  buttonC.addEventListener('click', function c(event) {
-    progressBar.style.width = "55%";
-    progressBar.style.backgroundColor = "#150350";
-    progressBar.textContent = "C: 70%";
-    event.preventDefault();
-  });
-  const buttonJ = document.getElementById('java');
-  buttonJ.addEventListener('click', function j(event) {
-    progressBar.style.width = "75%";
-    progressBar.style.backgroundColor = "#d81a2a";
-    progressBar.textContent = "JAVA: 80%";
-    event.preventDefault();
-  });
-  const buttonP = document.getElementById('python');
-  buttonP.addEventListener('click', function p(event) {
-    progressBar.style.width = "40%";
-    progressBar.style.backgroundColor = "#2279d1";
-    progressBar.textContent = "PYTHON: 40%";
-    event.preventDefault();
-  });
-  const buttonJEE = document.getElementById('javaee');
-  buttonJEE.addEventListener('click', function jee(event) {
-    progressBar.style.width = "60%";
-    progressBar.style.backgroundColor = "#dd0b0b";
-    progressBar.textContent = "JAVAEE: 50%";
-    event.preventDefault();
-  });  
-  const buttonH = document.getElementById('html5');
-  buttonH.addEventListener('click', function h(event) {
-    progressBar.style.width = "65%";
-    progressBar.style.backgroundColor = "#d65b13";
-    progressBar.textContent = "HTML5: 65%";
-    event.preventDefault();
-  });
-  const buttonCS = document.getElementById('css3');
-  buttonCS.addEventListener('click', function css(event) {
-    progressBar.style.width = "45%";
-    progressBar.style.backgroundColor = "#0c20d8";
-    progressBar.textContent = "CSS3: 45%";
-    event.preventDefault();
-  }); 
-  const buttonJS = document.getElementById('js');
-  buttonJS.addEventListener('click', function js(event) {
-    progressBar.style.width = "30%";
-    progressBar.style.backgroundColor = "#b3d613";
-    progressBar.textContent = "JS: 30%";
-    event.preventDefault();
-  });
-  const buttonPH = document.getElementById('php');
-  buttonPH.addEventListener('click', function php(event) {
-    progressBar.style.width = "55%";
-    progressBar.style.backgroundColor = "#033461";
-    progressBar.textContent = "PHP: 55%";
-    event.preventDefault();
-  });
-
-
   // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
