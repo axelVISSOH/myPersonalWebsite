@@ -561,3 +561,107 @@ input{
   height: 80px;
   width: 80px;
 }
+/* interest */
+.chess-interests{
+  margin-bottom: 50px;
+}
+.chesspart{
+  background: url(assets/img/chess.jpg);
+  background-size: contain;
+  padding-bottom: 50px;
+}
+/*.swiper-wrapper .swiper-slide{
+  border: 3px solid #000;
+}*/
+.chesspart .swiper-slide{
+  background: transparent;
+}
+.swiper-slide .quotes{
+    background-position: center;
+    color: #fff;
+}
+.swiper-slide p{
+    padding: 25px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.swiper-slide .author{
+  height: 75px;
+  padding-top: 25px;
+  font-size: 16px;
+  color: #f44336;
+  text-align: center;
+}
+
+@media screen{
+  .sport-people img{
+    width: 300px;
+    height: 250px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1200px){
+  .sport-people img{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 60px;
+  }
+}
+@media handheld{
+  .sport-people img{
+    width: 300px;
+    height: 300px
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+}
+
+.draw-interests{
+  background: url(assets/img/images7.jpg);
+  background-size: contain;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    background: #fff;
+}
+.swiper-slide .imgBx{
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-slide .imgBx img{
+    width: 100%;
+}
+.smallPict{
+  width: 450px;
+  margin-top: 80px;
+}
+.smallPict .imgBx img{
+    width: 450px;
+    height: 350px;
+}
+/*.swiper-slide .details{
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 50px
+    padding: 20px;
+}
+.swiper-slide .details h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.swiper-slide .details h3 span{
+    font-size: 16px;
+    color: #f44336;
+}*/
