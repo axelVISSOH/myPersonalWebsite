@@ -17,9 +17,9 @@
   });
   const buttonP = document.getElementById('python');
   buttonP.addEventListener('click', function p(event) {
-    progressBarL.style.width = "40%";
+    progressBarL.style.width = "50%";
     progressBarL.style.backgroundColor = "#2279d1";
-    progressBarL.textContent = "PYTHON: 40%";
+    progressBarL.textContent = "PYTHON: 50%";
     event.preventDefault();
   });
   const buttonJEE = document.getElementById('javaee');
@@ -38,16 +38,16 @@
   });
   const buttonCS = document.getElementById('css3');
   buttonCS.addEventListener('click', function css(event) {
-    progressBarL.style.width = "45%";
+    progressBarL.style.width = "50%";
     progressBarL.style.backgroundColor = "#0c20d8";
-    progressBarL.textContent = "CSS3: 45%";
+    progressBarL.textContent = "CSS3: 50%";
     event.preventDefault();
   }); 
   const buttonJS = document.getElementById('js');
   buttonJS.addEventListener('click', function js(event) {
-    progressBarL.style.width = "30%";
+    progressBarL.style.width = "45%";
     progressBarL.style.backgroundColor = "#b3d613";
-    progressBarL.textContent = "JS: 30%";
+    progressBarL.textContent = "JS: 45%";
     event.preventDefault();
   });
   const buttonPH = document.getElementById('php');
@@ -69,10 +69,17 @@ buttonS.addEventListener('click', function sql(event) {
 });
 const buttonSD = document.getElementById('sqld');
 buttonSD.addEventListener('click', function sqld(event) {
-    progressBarD.style.width = "70%";
+    progressBarD.style.width = "60%";
     progressBarD.style.backgroundColor = "#b3d613";
-    progressBarD.textContent = "SQLDEV: 70%";
+    progressBarD.textContent = "SQLDEV: 60%";
     event.preventDefault();
+});
+const buttonMS = document.getElementById('msql');
+buttonMS.addEventListener('click', function msql(event) {
+  progressBarD.style.width = "50%";
+  progressBarD.style.backgroundColor = "#dd8614";
+  progressBarD.textContent = "MySQL: 50%";
+  event.preventDefault();
 });
 const buttonO = document.getElementById('oracle');
 buttonO.addEventListener('click', function oracle(event) {
@@ -152,7 +159,7 @@ const buttonV = document.getElementById('visual');
 buttonV.addEventListener('click', function visual(event) {
     progressBarS.style.width = "55%";
     progressBarS.style.backgroundColor = "#2279d1";
-    progressBarS.textContent = "VISUAL STUDIO CODE: 55%";
+    progressBarS.textContent = "VS_CODE: 55%";
     event.preventDefault();
 });
 const buttonW = document.getElementById('wamp');
