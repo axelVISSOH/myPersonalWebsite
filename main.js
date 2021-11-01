@@ -68,7 +68,7 @@
         $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
       }
     }
-  });
+  }); 
 
   // Navigation active state on scroll
   var nav_sections = $('section');
@@ -123,18 +123,19 @@
   }, {
     offset: '80%'
   });
-  // Porfolio isotope and filter
+
+  // project isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
+    var projectIsotope = $('.project-container').isotope({
+      itemSelector: '.project-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#project-flters li').on('click', function() {
+      $("#project-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
+      projectIsotope.isotope({
         filter: $(this).data('filter')
       });
       aos_init();
@@ -146,26 +147,8 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      900: {
-        items: 3
-      }
-    }
-  });
-
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  // project details carousel
+  $(".project-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,

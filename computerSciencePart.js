@@ -1,5 +1,5 @@
 //Computer-Science Section
-//LANGUANGES
+//LANGUAGES
   const buttonC = document.getElementById('c');
   var progressBarL = document.getElementById('progressionLanguage');
   buttonC.addEventListener('click', function c(event) {
@@ -96,13 +96,20 @@ buttonPMA.addEventListener('click', function pma(event) {
     event.preventDefault();
 });
 //TECHNOLOGIES
-const buttonG = document.getElementById('git');
 var progressBarT = document.getElementById('progressionTechnologies');
+const buttonG = document.getElementById('git');
 buttonG.addEventListener('click', function h(event) {
     progressBarT.style.width = "75%";
     progressBarT.style.backgroundColor = "#b3d613";
     progressBarT.textContent = "GIT: 75%";
     event.preventDefault();
+});
+const buttonPE = document.getElementById('perforce');
+buttonPE.addEventListener('click', function h(event) {
+  progressBarT.style.width = "30%";
+  progressBarT.style.backgroundColor = "#0e8cec";
+  progressBarT.textContent = "PERFORCE: 30%";
+  event.preventDefault();
 });
 const buttonJENK = document.getElementById('jenkins');
 buttonJENK.addEventListener('click', function jenkins(event) {
@@ -125,6 +132,13 @@ buttonM.addEventListener('click', function maven(event) {
     progressBarT.textContent = "MAVEN: 40%";
     event.preventDefault();
 });
+const buttonWT = document.getElementById('windowsTester');
+buttonWT.addEventListener('click', function h(event) {
+  progressBarT.style.width = "30%";
+  progressBarT.style.backgroundColor = "#747e83";
+  progressBarT.textContent = "WINDOWSTESTER: 30%";
+  event.preventDefault();
+});
 //SOFTWARE
 const buttonCODE = document.getElementById('code');
 var progressBarS = document.getElementById('progressionSoftware');
@@ -144,7 +158,7 @@ buttonE.addEventListener('click', function eclipse(event) {
 const buttonSP = document.getElementById('spyder');
 buttonSP.addEventListener('click', function spyder(event) {
     progressBarS.style.width = "45%";
-    progressBarS.style.backgroundColor = "#000";
+  progressBarS.style.backgroundColor = "#1e1f1f";
     progressBarS.textContent = "SPYDER: 45%";
     event.preventDefault();
 });
@@ -162,10 +176,10 @@ buttonV.addEventListener('click', function visual(event) {
     progressBarS.textContent = "VS_CODE: 55%";
     event.preventDefault();
 });
-const buttonW = document.getElementById('wamp');
+/*const buttonW = document.getElementById('wamp');
 buttonW.addEventListener('click', function wamp(event) {
     progressBarS.style.width = "60%";
     progressBarS.style.backgroundColor = "#d81aaf";
     progressBarS.textContent = "WAMP: 60%";
     event.preventDefault();
-});
+});*/

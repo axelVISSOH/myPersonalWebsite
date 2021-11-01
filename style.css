@@ -386,7 +386,7 @@ section {
     background-color: #1a2dd8;
     height: 40px;
     border-radius: 30px;
-    width: 10%;
+    width: 100%;
     transition: width 1s ease-in-out,background-color 0s;
     color: white;
     text-align: center;
